@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: teal
 
 # SEO
 marketing:
@@ -31,7 +31,7 @@ header:
   navbar:
     enable: true
     blox: "navbar"
-    align: "center"
+    align: "right"
     fixed_to_top: true
     logo:
       text: ""
@@ -41,8 +41,10 @@ header:
       enable: true
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
-    show_search: true
+    show_search: false
     show_theme_chooser: true
+    highlight_active_link: true
+    show_translations: true
 
 # Site footer
 footer:
@@ -51,5 +53,5 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '01/02/06'
+  time_format: '15:04'
